@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Andriy Jose Barahona Gonzalez</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Portafolio.</div>
+        <ul class="nav-links">
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    
+    <header id="sobre-mi" class="hero">
+        <div class="hero-contenido">
+            
+            <img src="img/Andriy.jpg" alt="Foto de Andriy" class="foto-perfil">
+            
+            <h1>Hola, soy <span>Andriy Barahona</span></h1>
+            <h2>Desarrollador de Software y Web</h2>
+            
+            <p class="bio">
+                Soy estudiante de la Universidad Católica (Unicah), apasionado por crear 
+                soluciones tecnológicas eficientes. [Aquí puedes agregar un par de líneas sobre 
+                lo que te gusta hacer, por ejemplo: Me especializo en el desarrollo backend con C# 
+                y la creación de interfaces web intuitivas. Siempre busco aprender nuevas tecnologías 
+                y mejorar mis habilidades de programación.]
+            </p>
+            
+            <div class="hero-botones">
+                <!-- Reemplaza el # con tu enlace real de GitHub -->
+                <a href="#" target="_blank" class="btn btn-primario">Mi GitHub</a>
+                <a href="#proyectos" class="btn btn-secundario">Ver mis proyectos</a>
+            </div>
+        </div>
+    </header>
+
+  
+    <section id="proyectos" class="seccion-proyectos">
+        <h2 class="titulo-seccion">Mis Proyectos Destacados</h2>
+        
+        <div class="grid-proyectos">
+            
+            
+            <article class="tarjeta-proyecto">
+                <div class="imagen-proyecto">
+                    
+                    <img src="img/Inicio.png" alt="Sistema Café y Código">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Café y Código - Sistema de Gestión</h3>
+                    <p>Aplicación de escritorio para la administración de inventario y control de traspasos de productos entre múltiples sucursales. Cuenta con sistema de login y un módulo detallado de movimientos.</p>
+                    <div class="etiquetas">
+                        <span>C#</span>
+                        <span>Windows Forms</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- PROYECTO 2: Base de Datos -->
+            <article class="tarjeta-proyecto">
+                <div class="imagen-proyecto">
+                    <!-- Usando la captura del diagrama -->
+                    <img src="img/Diagrama.png" alt="Diagrama de Base de Datos">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Arquitectura de Base de Datos</h3>
+                    <p>Diseño y modelado de una base de datos relacional orientada al control de inventarios. Estructuración normalizada de tablas para usuarios, productos, tiendas y registros de movimientos.</p>
+                    <div class="etiquetas">
+                        <span>SQL</span>
+                        <span>Modelado de Datos</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- PROYECTO 3: Web Red Madres Solidarias -->
+            <article class="tarjeta-proyecto">
+                <div class="imagen-proyecto">
+                    <!-- Usando la captura de la página de noticias -->
+                    <img src="img/web1.png" alt="Web Red Madres Solidarias">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Plataforma Web - Red Madres Solidarias</h3>
+                    <p>Desarrollo frontend colaborativo para el portal web de una ONG. [Explica tu rol aquí, por ejemplo: Me encargué de maquetar la sección de noticias, eventos y el formulario de contacto interactivo].</p>
+                    <div class="etiquetas">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CONTACTO -->
+    <section id="contacto" class="seccion-contacto">
+        <h2 class="titulo-seccion">Ponte en contacto</h2>
+        <div class="contenedor-formulario">
+            <form id="formulario-contacto">
+                <div class="grupo-input">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" required placeholder="Tu nombre">
+                </div>
+                <div class="grupo-input">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" required placeholder="tu@correo.com">
+                </div>
+                <div class="grupo-input">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="4" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primario ancho-completo">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 Andriy Jose Barahona Gonzalez. Creado para clase de Programación Web.</p>
+    </footer>
+
+    
+</body>
+</html>

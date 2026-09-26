@@ -1,0 +1,211 @@
+/* RESET BÁSICO */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* NAVEGACIÓN */
+nav {
+    background-color: #222222;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* SECCIÓN SOBRE MÍ (HERO) */
+.hero {
+    background-color: #f4f4f4;
+    padding: 60px 5%;
+    border-bottom: 1px solid #dddddd;
+}
+
+.hero-contenido {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.foto-perfil {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 3px solid #cccccc;
+}
+
+.hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 32px;
+}
+
+.hero h2 {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    color: #555555;
+    font-weight: normal;
+}
+
+.hero-botones {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid #222222;
+}
+
+.btn-primario {
+    background-color: #222222;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.btn-secundario {
+    background-color: transparent;
+    color: #222222;
+}
+
+.btn-primario:hover, .btn-secundario:hover {
+    background-color: #555555;
+    color: #ffffff;
+    border-color: #555555;
+}
+
+/* PROYECTOS */
+.seccion-proyectos {
+    padding: 60px 5%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.titulo-seccion {
+    border-bottom: 2px solid #222222;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.grid-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.tarjeta-proyecto {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.imagen-proyecto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #eeeeee;
+    margin-bottom: 15px;
+}
+
+.info-proyecto h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.etiquetas {
+    margin-top: 15px;
+}
+
+.etiquetas span {
+    background-color: #eeeeee;
+    color: #333333;
+    padding: 4px 8px;
+    font-size: 13px;
+    margin-right: 5px;
+    border: 1px solid #dddddd;
+}
+
+/* CONTACTO */
+.seccion-contacto {
+    background-color: #f9f9f9;
+    padding: 60px 5%;
+    border-top: 1px solid #dddddd;
+}
+
+.contenedor-formulario {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #cccccc;
+}
+
+.grupo-input {
+    margin-bottom: 20px;
+}
+
+.grupo-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.grupo-input input, .grupo-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.ancho-completo {
+    width: 100%;
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ancho-completo:hover {
+    background-color: #000000;
+}
+
+/* FOOTER */
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
