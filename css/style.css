@@ -1,4 +1,4 @@
-/* RESET BÁSICO */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -8,7 +8,6 @@ body {
     line-height: 1.6;
 }
 
-/* NAVEGACIÓN */
 nav {
     background-color: #222222;
     color: #ffffff;
@@ -103,7 +102,7 @@ nav {
     border-color: #555555;
 }
 
-/* PROYECTOS */
+
 .seccion-proyectos {
     padding: 60px 5%;
     max-width: 1100px;
@@ -154,7 +153,6 @@ nav {
     border: 1px solid #dddddd;
 }
 
-/* CONTACTO */
 .seccion-contacto {
     background-color: #f9f9f9;
     padding: 60px 5%;
@@ -201,7 +199,6 @@ nav {
     background-color: #000000;
 }
 
-/* FOOTER */
 footer {
     background-color: #222222;
     color: #ffffff;
